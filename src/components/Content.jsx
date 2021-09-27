@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Content(props) {
    switch(props.navActiveItem){
@@ -251,6 +251,12 @@ I am proficient in several programming and layout languages including C++, Pytho
             return(
                 <div className="content">
                     <h1>I'll add more stuff here soon! :)</h1>
+                </div>
+            );
+        default:
+            return(
+                <div className="content">
+                    <h1 className="text-danger">Something went wrong :O</h1>
                 </div>
             );
         
