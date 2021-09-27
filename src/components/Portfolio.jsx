@@ -72,7 +72,6 @@ class Portfolio extends Component {
                 id="myModal" 
                 className={`modal text-center ${this.state.hideProfile ? "slide-up" : "slide-down"}`}
                 onTransitionEnd={() => this.handleNavbarTransitionEnd()}
-                onTransitionStart={() => console.log("Transition Started")}
                 >
                     <div className="modal-content">
                         <div style={{backgroundColor: 'black'}}
