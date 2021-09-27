@@ -1,0 +1,23 @@
+.navbar{
+    position: static;
+}
+
+.nav-item{
+    padding: 0 25px 0 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: darkgray;
+}
+
+.nav-item:hover{
+    transform: scale(1.5);
+    color: white;
+}
+
+.nav-item-active{
+    color: white;
+}
+
+.ls-left{
+    text-align: left;
+}

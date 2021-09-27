@@ -1,0 +1,102 @@
+*{
+    color: lightgray;
+}
+
+body{
+    background-color: black;
+}
+
+.slide-up{
+    transition: 1s;
+    transform: translateY(-60%);
+    z-index: -9999999;
+}
+
+.slide-down{
+    transition: 1s;
+    transform: translate(0%, 0%);
+}
+
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+    width: 100%;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color:black;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.content{
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 1366px) {
+    .modal-content{
+        width: 100vw;
+    }
+
+    .slide-up{
+        transition: 1s;
+        transform: translateY(-80%);
+    }
+    
+    .slide-down{
+        transition: 1s;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .modal{
+        background-clip:unset;
+    }
+    
+    .content{
+        margin-top: 70%;
+    }
+    .slide-up{
+        transition: 1s;
+        transform: translateY(-50%);
+    }
+    
+    .slide-down{
+        transition: 1s;
+        transform: translate(0%, 20%);
+    }
+
+    .ytb-vid{
+        width: 100vw;
+    }
+}
