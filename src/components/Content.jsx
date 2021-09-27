@@ -159,22 +159,19 @@ I am proficient in several programming and layout languages including C++, Pytho
                             </div><div className="col-12 mt-4">
                                 <div className="d-flex justify-content-between border-bottom border-light">
                                     <div className="d-flex flex-column">
-                                        <span><i class="fas fa-briefcase"></i> Teamcal Ai</span>
-                                        <span><i class="fas fa-user"></i> Software Engineer Intern </span>
+                                        <span><i class="fas fa-briefcase"></i> EMRCPR</span>
+                                        <span><i class="fas fa-user"></i> IT Project Lead </span>
                                     </div>
                                     <div className="d-flex flex-column">
-                                        <span><i class="far fa-calendar-alt"></i> May 2021 - Aug 2021</span>
-                                        <span><i class="fas fa-map-marker-alt"></i> Mountain View, CA</span>
+                                        <span><i class="far fa-calendar-alt"></i> Sept 2019 - March 2021</span>
+                                        <span><i class="fas fa-map-marker-alt"></i> Daly City, CA</span>
                                     </div>
                                 </div>
                                 <div className="d-flex justify-content-evenly">
                                     <p className="mt-4">
-                                    • Rearchitected company website into a user-friendly CMS which enabled users to dynamically change website content<br/><br/>
-                                    • Integrated a blog/newsletter into the company website which improved SEO quality<br/><br/>
-                                    • Developed a core product feature that automated meeting scheduling for managers and CEOs of large companies<br/><br/>
-                                    • Tested and improved existing web application features to ensure continuity of operation<br/><br/>
-                                    • Practiced AGILE methodologies to brainstorm, design, and develop new product features.<br/><br/>
-
+                                    • Supervised a group of technicians to setup and relocate desktops and data centers <br/><br/> 
+                                    • Interacted consistently with clients to ensure satisfaction and project accuracy <br/><br/> 
+                                    • Managed inventory and performed quality assurance in order to prepare materials to guarantee project success <br/><br/> 
                                     </p>
                                 </div>
                             </div>
