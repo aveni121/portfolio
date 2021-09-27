@@ -24,6 +24,10 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.small-img{
+    width: 33vh;
+}
+
 /* The Modal (background) */
 .modal {
     display: block; /* Hidden by default */

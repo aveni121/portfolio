@@ -1,4 +1,5 @@
 import React from 'react';
+import teamcalAiAward from '../images/TeamcalAiAward.jpg'
 
 function Content(props) {
    switch(props.navActiveItem){
@@ -250,7 +251,12 @@ I am proficient in several programming and layout languages including C++, Pytho
         case "Extra":
             return(
                 <div className="content">
-                    <h1>I'll add more stuff here soon! :)</h1>
+                    <div className="container-fluid">
+                        <div className="d-flex flex-column align-items-center">
+                            <h2 className="mb-4">Teamcal Ai Award for being an outstanding Software Engineer Intern</h2>
+                            <img className="small-img" src={teamcalAiAward} alt="Teamcal Ai Award"/>
+                        </div>
+                    </div>
                 </div>
             );
         default:
