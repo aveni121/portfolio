@@ -14,16 +14,28 @@ class Portfolio extends Component {
             hideProfile: false,
             hideNavbar: true,
             navbarAnimations: "opacity-0",
+            contentAnimations: "opacity-0",
             navActiveItem: "About",
             navItemClicked: false,
         }
     }
 
     handleMoreButtonClick() {
-        this.setState({
-            hideNavbar: !this.state.hideNavbar, 
-            hideProfile: !this.state.hideProfile
-        });
+        if(this.state.hideNavbar){
+            this.setState({
+                contentAnimations: "animate__animated animate__fadeIn animate__slower",
+                hideNavbar: false, 
+                hideProfile: true,
+            });
+        }
+        else{
+            this.setState({
+                contentAnimations: "animate__animated animate__fadeOut animate__faster",
+                hideNavbar: true, 
+                hideProfile: false,
+            });
+        }
+        
     }
 
     handleNavItemClick(item){
@@ -88,7 +100,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-                <div className={`container ${this.state.hideNavbar ? "animate__animated animate__fadeOut animate__faster opacity-0" : "animate__animated animate__fadeIn animate__slower opacity-100"}`
+                <div className={`container ${this.state.contentAnimations}`
                 }>
                     <Content navActiveItem={this.state.navActiveItem}></Content>
                 </div>
