@@ -62,7 +62,6 @@ class Portfolio extends Component {
 
     handleNavbarTransitionEnd(){
         this.setState({navbarAnimations: this.state.hideNavbar ? "animate__fadeOut" : "animate__fadeIn"});
-        var modal = document.getElementById("myModal");
     }
 
     render() { 
